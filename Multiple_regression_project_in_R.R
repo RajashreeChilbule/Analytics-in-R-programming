@@ -86,6 +86,7 @@ insurance_premium1$Annual_Salary_Bucket2 <- ifelse(insurance_premium1$Annual_Sal
 insurance_premium1$Annual_Salary_Bucket3 <- ifelse(insurance_premium1$Annual_Salary_Bucket=='Less than $40,000',1,0)
 
 View(insurance_premium1)
+
 #---------------------Exp_Within_Org--------------------------
 table(df$Exp_Within_Org)/nrow(df)
 # Avg Premium by Exp_Within_Org
