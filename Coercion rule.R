@@ -13,7 +13,6 @@ x
 class(x)
 
 #R will change the object class to character and change all the elements in the vector to char
-
 #Let's change the third element of the vector to the "List" 
 #Creating a list
 
