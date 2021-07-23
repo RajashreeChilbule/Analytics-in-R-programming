@@ -25,6 +25,7 @@ median(x)
 length(x)
 
 # Creating data set by combining 4 variables of same length.
+
 # Create a, b, c, d variables
 a <- c(10,20,30,40)
 b <- c('book', 'pen', 'textbook', 'pencil_case')
