@@ -59,6 +59,7 @@ logitmod <- glm(Class ~
 
 summary(logitmod)
 
+
 #logitmod <- glm(Class ~ Cl.thickness + Cell.size + Cell.shape, 
 #family = "binomial", data=trainData)
 
