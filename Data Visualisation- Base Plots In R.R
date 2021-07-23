@@ -52,7 +52,6 @@ plot(x=X, y=Y, type='p', pch=11) #points, plotting symbol=13 pch has variety of 
 plot(x=X, y=Y, type='p', cex=2) #points, double the size cex=just doubles the size of point with normal points
 
 #Another Example of Line Plots:
-
 x <- c(1:5); y <- x# create some data, creates scale
 par(mfrow=c(2,4)) # all plots on one page 
 opts = c("p","l","o","b","c","s","S","h") 
