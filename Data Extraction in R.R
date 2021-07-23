@@ -8,7 +8,6 @@
 directory <-getwd()
 directory
 
-
 mtcars  #inbuilt datasets
 data()  #other datasets
 
