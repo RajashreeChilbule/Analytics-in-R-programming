@@ -5,6 +5,7 @@
 # If quantity greater than 20, print "You sold a lot!" otherwise "Not enough for today."
 # Create vector quantity
 quantity <-  25
+
 # Set the if-else statement
 if (quantity > 20) {
   print('You sold a lot!')
