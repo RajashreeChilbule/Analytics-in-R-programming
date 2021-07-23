@@ -8,9 +8,7 @@ setwd("C:/Users/Raj/Documents/R/Matrix Data structure")
 data <- read.csv("C:/Users/Raj/Documents/R/Matrix Data structure/data/heart-disease.csv")
 
 View (data)
-
 dim(data)
-
 head(data)
 
 #To simplify the problem, we're only going to attempt to distinguish the presence of heart disease (values 1,2,3,4) from absence of heart disease (value 0). Therefore, we replace all labels greater than 1 by 1.
