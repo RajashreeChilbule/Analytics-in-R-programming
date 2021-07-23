@@ -35,7 +35,6 @@ iris_test$Prediction_Species = predict(ctree, iris_test, type = 'class')
 View(iris_test)
 
 #Accuracy (Confusion Matrix)
-
 #Regression Decision Tree-
 rtree = rpart(Sepal.Length ~., data = iris_train, method = "anova")
 rpart.plot(rtree)
