@@ -25,7 +25,6 @@ all.equal(rowMeanFor, rowMeanApply)
 
 
 # Comparing the time to do this calculation using a for loop and using apply()
-
 # We use system.time(expr) to know how fast R processes an expression. 
 # This function is especially useful for comparing the speed of two coding options.
 # It gives: "User CPU time" & "system CPU time".
