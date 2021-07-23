@@ -3,7 +3,6 @@
 # table()-tells the frequency of occurence of each variable category in the dataset.
 # xtabs()- tells the relationship between two categorical variables
 # aggregate()- Splits the data into subsets, computes summary statistics for each.
-# 
 mtcars
 View(mtcars)
 
