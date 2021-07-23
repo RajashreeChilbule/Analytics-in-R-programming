@@ -9,6 +9,7 @@ d <- c(2.5, 8, 10, 7)
 # Join the variables to create a data frame
 df <- data.frame(a,b,c,d)
 df
+
 #Sort()
 #You can sort your data according to certain variable in dataset using order() fxn.
 # Sort by column 'd' in dataset df in ascending order.
