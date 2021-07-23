@@ -30,6 +30,7 @@ summary(result)
 #Eq: Age= -100.84 + 1.55*Hieght
 
 #Accuracy:
+
 #Since R2 is close to 1, hence model is highly significant.
 
 data_fitted<-data.frame(df , fitted.value=fitted(result),residual=resid(result))
