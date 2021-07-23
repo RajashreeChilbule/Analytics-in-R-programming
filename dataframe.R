@@ -24,6 +24,7 @@ tail(df) #last 6 rows
 View(df)
 class(df) # DF
 summary(df) #summary
+
 #Slice Data Frame: 
 #We select rows and columns to return into bracket preceded by the name of the data frame
 
