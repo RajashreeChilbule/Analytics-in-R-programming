@@ -50,7 +50,6 @@ select(mynewdata, -c(cyl,hp))
 #select series of columns
 select(mynewdata, cyl:gear)
 
-
 #chaining or pipelining - a way to perform multiple operations in one line
 mynewdata %>% select(cyl, wt, gear)%>% filter(wt > 3)
 
